@@ -17,5 +17,21 @@ namespace MobileApsProject
         {
             InitializeComponent();
         }
+
+
+
+        private void Button_Clicked_To_Einkaufsliste(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EinkaufsListePage());
+
+        }  
+        private void Button_Clicked_To_Produktliste(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ProduktListePage());
+        }  
+        private void Button_Clicked_To_Hinzufuegen(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new HinzufuegenPage());
+        }
     }
 }

@@ -13,4 +13,5 @@
            VerticalOptions="CenterAndExpand" />
     </StackLayout>
 
+    <Button Clicked="Button_Clicked"></Button>
 </ContentPage>
